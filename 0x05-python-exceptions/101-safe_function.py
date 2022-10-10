@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 import sys
 
 def safe_function(fct, *args):
@@ -13,6 +14,7 @@ def safe_function(fct, *args):
         If an error occurs - None.
         Otherwise - the result of the call to fct.
     """
+
     try:
         result = fct(*args)
         return (result)
